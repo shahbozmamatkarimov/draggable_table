@@ -138,7 +138,7 @@
               <h3
                 class="mb-4 text-xl font-medium text-gray-900 dark:text-white"
               >
-                Edit product
+                Tahrirlash
               </h3>
               <form @submit.prevent="handleEdit" class="space-y-6">
                 <div>
@@ -176,7 +176,7 @@
                   type="submit"
                   class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
-                  create
+                  Tahrirlash
                 </button>
               </form>
             </div>
@@ -208,7 +208,7 @@
               <h3
                 class="mb-4 text-xl font-medium text-gray-900 dark:text-white"
               >
-                Edit product
+                Mahsulot yaratish
               </h3>
               <form @submit.prevent="handleSubmit" class="space-y-6" action="#">
                 <div>
@@ -247,7 +247,7 @@
                   type="submit"
                   class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
-                  create
+                  Yaratish
                 </button>
               </form>
             </div>
@@ -291,7 +291,7 @@
               <h3
                 class="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400"
               >
-                Are you sure you want to delete this product?
+                Siz bu mahsulotni o'chirishni xohlaysizmi?
               </h3>
               <button
                 @click="() => deleteFunc()"
@@ -299,7 +299,7 @@
                 type="button"
                 class="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2"
               >
-                Yes, I'm sure
+                Ha
               </button>
               <button
                 @click="deleteModal = false"
@@ -307,7 +307,7 @@
                 type="button"
                 class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600"
               >
-                No, cancel
+                Yo'q
               </button>
             </div>
           </div>
