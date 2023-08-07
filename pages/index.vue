@@ -362,10 +362,12 @@ function handleEdit() {
 
 function handleSubmit() {
   const data = {
+    id: new Date().getTime(),
     name: form.name,
     category: form.category,
     is_active: false,
   };
+  console.log(data);
   tableStore.value.push(data);
   createModal.value = false;
   form.name = ""
